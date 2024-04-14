@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<locale.h>
+
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+	int n1, n2;
+	printf("Digite o primeiro número:");
+	scanf("%i", &n1);
+	printf("Digite o segundo número:");
+	scanf("%i", &n2);
+	
+	printf("O dobro de %i é %i\nO triplo de %i é %i", n1, n1*2, n2, n2*3);
+	return(0);
+}
