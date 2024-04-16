@@ -4,11 +4,11 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n1, n2;
-	printf("Digite o primeiro número:");
+	printf("Digite o primeiro nÃºmero:");
 	scanf("%i", &n1);
-	printf("Digite o segundo número:");
+	printf("Digite o segundo nÃºmero:");
 	scanf("%i", &n2);
 	
-	printf("O dobro de %i é %i\nO triplo de %i é %i", n1, n1*2, n2, n2*3);
+	printf("O dobro de %i Ã© %i\nO triplo de %i Ã© %i", n1, n1*2, n2, n2*3);
 	return(0);
 }
